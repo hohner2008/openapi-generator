@@ -4,3 +4,8 @@ setuptools >= 21.0.0
 bp2hookutil==3.3.0
 plansdk
 twigjack
+certifi>=2023.7.22 # not directly required, pinned by Snyk to avoid a vulnerability
+flask>=2.2.5 # not directly required, pinned by Snyk to avoid a vulnerability
+jinja2>=3.1.3 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.31.0 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=2.2.3 # not directly required, pinned by Snyk to avoid a vulnerability
