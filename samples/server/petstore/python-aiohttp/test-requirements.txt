@@ -4,3 +4,5 @@ pluggy>=0.3.1
 py>=1.4.31
 randomize>=0.13
 pytest-aiohttp>=0.3.0
+aiohttp>=3.9.4 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
